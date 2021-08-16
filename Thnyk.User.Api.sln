@@ -3,7 +3,7 @@ Microsoft Visual Studio Solution File, Format Version 12.00
 # Visual Studio Version 16
 VisualStudioVersion = 16.0.31424.327
 MinimumVisualStudioVersion = 10.0.40219.1
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Thnyk.User.Api", "Thnyk.User.Api\Thnyk.User.Api.csproj", "{CA0E91DF-5779-460D-BFBD-C953B6A4299A}"
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Thnyk.User.Api", "Api\Thnyk.User.Api\Thnyk.User.Api\Thnyk.User.Api.csproj", "{CA0E91DF-5779-460D-BFBD-C953B6A4299A}"
 EndProject
 Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Api", "Api", "{1D250B5C-DEA4-48EA-853D-2F088A80CA73}"
 EndProject
@@ -17,15 +17,15 @@ Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Application", "Application"
 EndProject
 Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Domain", "Domain", "{A64F8370-AC05-43CC-A626-FFA352086D91}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Thnyk.Users.Infrastructure", "..\..\Infrastructure\Thnyk.Users.Infrastructure\Thnyk.Users.Infrastructure.csproj", "{05DF1CAF-7E7D-4B27-ABCA-FCB1ACE3ECE4}"
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Thnyk.Users.Infrastructure", "Infrastructure\Thnyk.Users.Infrastructure\Thnyk.Users.Infrastructure.csproj", "{05DF1CAF-7E7D-4B27-ABCA-FCB1ACE3ECE4}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Thnyk.Core.Domain", "..\..\Core\Domain\Thnyk.Core.Domain\Thnyk.Core.Domain.csproj", "{F9B60E0E-3A83-432B-A037-8F3BC9145EB2}"
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Thnyk.Core.Domain", "Core\Domain\Thnyk.Core.Domain\Thnyk.Core.Domain.csproj", "{F9B60E0E-3A83-432B-A037-8F3BC9145EB2}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Thnyk.Core.Application", "..\..\Core\Application\Thnyk.Core.Application\Thnyk.Core.Application.csproj", "{0B8781B8-0246-4036-9668-EBC88C237351}"
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Thnyk.Core.Application", "Core\Application\Thnyk.Core.Application\Thnyk.Core.Application.csproj", "{0B8781B8-0246-4036-9668-EBC88C237351}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Users.Api.Tests", "..\..\Tests\Users.Api.Tests\Users.Api.Tests.csproj", "{148908DE-6966-4A3A-B2C2-F3E1CA5E2C13}"
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Users.Api.Tests", "Tests\Users.Api.Tests\Users.Api.Tests.csproj", "{148908DE-6966-4A3A-B2C2-F3E1CA5E2C13}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Users.Api.FunctionalTest", "..\..\Tests\Users.Api.FunctionalTest\Users.Api.FunctionalTest.csproj", "{DD7AFB75-E217-4752-927E-F87FFA336E21}"
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Users.Api.FunctionalTest", "Tests\Users.Api.FunctionalTest\Users.Api.FunctionalTest.csproj", "{DD7AFB75-E217-4752-927E-F87FFA336E21}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
